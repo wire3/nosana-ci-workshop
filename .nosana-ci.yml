@@ -15,8 +15,9 @@ jobs:
       - npm ci
       - npx hardhat compile
     artifacts:
-      - name: my-build
-        path: .
+      - name: node_modules
+      - name: artifacts
+      - name: cache
 
   - name: test
     environment:
