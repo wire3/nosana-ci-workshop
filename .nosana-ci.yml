@@ -34,7 +34,7 @@ jobs:
       - name: artifacts
       - name: cache
         
-     - name: deploy
+  - name: deploy
     secrets:
       - PRIVATE_KEY
     commands:
